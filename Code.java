@@ -18,8 +18,7 @@ public class Main {
     static Game G;
     static String password = "password";
     public static void main(String[] args){
-        t.G = Game.createInstance(password);
-        
+        t.G = Game.createInstance(password);//Just experimenting with singleton classes and password stuff
     }
 }
 class Game extends JPanel {
